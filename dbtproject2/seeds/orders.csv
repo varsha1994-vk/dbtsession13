@@ -1,0 +1,5 @@
+order_id,customer_id,order_date,amount,payment_mode
+101,1,2025-08-01,120,online
+102,2,2025-08-02,300,upi
+103,3,2025-08-03,150,online
+104,1,2025-08-04,200,upi
