@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: raw_customers
+    columns:
+      - name: customer_id
+        tests:
+          - unique
+          - not_null
+  - name: raw_orders
+    columns:
+      - name: payment_mode
+        tests:
+          - not_null    
+          - accepted_values:
+              values: ['online','upi']

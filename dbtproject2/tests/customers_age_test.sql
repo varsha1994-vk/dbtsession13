@@ -1,0 +1,1 @@
+select * from session13.session13sch_bronze.raw_customers where age<30
